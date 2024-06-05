@@ -1,0 +1,43 @@
+.content {
+  color: aliceblue;
+  padding-left: 35px;
+}
+.image {
+  border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+  background-color: #041340; 
+  overflow: hidden;
+}
+
+.image img {
+  filter: drop-shadow(5px -8px 10px rgb(81, 146, 220));
+  width: 450px; 
+  /* height: 500px; */
+}
+.main {
+  padding-top: 20px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 6%,
+    rgba(9, 58, 121, 1) 63%,
+    rgba(0, 129, 255, 1) 100%
+  );
+}
+
+.content .name{
+    color: #017ffa;
+    font-size: 3rem;
+}
+.content h5{
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+.content span{
+    color: #017ffa;
+    font-size: 1rem;
+}
+
+.Social-media img{
+    margin-right: 15px;
+}

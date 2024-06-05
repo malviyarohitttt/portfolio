@@ -1,0 +1,30 @@
+.nav-links{
+    list-style: none;
+    gap: 25px;
+}
+.logo{
+    
+}
+
+.navBar{
+    background-color: black;
+    color: aliceblue;
+}
+
+.navbar-nav{
+    gap: 20px;
+}
+
+.navbar-nav li a{
+    color: rgb(55, 135, 230);
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.navbar-nav li a:focus{
+    color: white;
+}
+.navbar-nav li a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(55, 135, 230);
+    transition: all .2s linear ease-in-out ;
+}
